@@ -9,9 +9,6 @@ let package = Package(
         .library(
             name: "UncommonCrypto",
             targets: ["UncommonCrypto"]),
-        .library(
-            name: "CUncommonCrypto",
-            targets: ["CUncommonCrypto"]),
     ],
     dependencies: [],
     targets: [
